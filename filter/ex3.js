@@ -24,6 +24,16 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+
+  return names.filter(function(familyStark){
+    if(familyStark.includes('Stark')){
+      return  names;
+    }
+    
+  
+
+})
+
 }
 
 // Ne pas modifier l'export

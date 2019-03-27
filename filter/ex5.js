@@ -38,7 +38,13 @@ Exemple d'entrée:
 
  */
 
-function searchWordFilter(items, search) {
+function searchWordFilter(items,search) {
+
+  return items.filter(function(item){
+    if(item.includes('Revenge')){
+      return items;
+    }
+})
 }
 
 // Ne pas modifier l'export
